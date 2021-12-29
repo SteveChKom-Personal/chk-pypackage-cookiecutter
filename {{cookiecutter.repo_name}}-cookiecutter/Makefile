@@ -35,9 +35,6 @@ disable-precommit:
 install-editable:
 	pipenv install -e .
 
-.PHONY: clean
-clean: clean-build clean-pyc clean-test ## remove all build, test, coverage and Python artifacts
-
 .PHONY: clean-build
 clean-build: ## remove build artifacts
 	rm -fr build/
@@ -45,6 +42,9 @@ clean-build: ## remove build artifacts
 	rm -fr .eggs/
 	find . -name '*.egg-info' -exec rm -fr {} +
 	find . -name '*.egg' -exec rm -f {} +
+
+.PHONY: clean
+clean: clean-pyc clean-test ## remove test, coverage and Python artifacts
 
 .PHONY: clean-pyc
 clean-pyc: ## remove Python file artifacts
