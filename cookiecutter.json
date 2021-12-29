@@ -1,0 +1,9 @@
+{
+  "repo_name": "repo_name",
+  "package_name": "package name",
+  "author": "Author full name",
+  "author_email": "owner@example_email.com",
+  "github_username": "github user name",
+  "description": "Project short description",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
