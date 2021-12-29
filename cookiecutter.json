@@ -1,6 +1,6 @@
 {
-  "repo_name": "repo_name",
-  "package_name": "package name",
+  "repo_name": "repo-name",
+  "package_name": "package_name",
   "author": "Author full name",
   "author_email": "owner@example_email.com",
   "github_username": "github user name",
