@@ -19,6 +19,7 @@ init: ## First time initialisation of virtual environment to ensure code formatt
 	pipenv install pymysql
 	pipenv install pandas
 	pipenv install numpy
+	pipenv install types-pyyaml
 
 .PHONY: build
 build: ## Create package for use elsewhere
