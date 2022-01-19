@@ -15,11 +15,14 @@ init: ## First time initialisation of virtual environment to ensure code formatt
 	pipenv install coverage --dev
 	pipenv install twine --dev
 	pipenv install tox --dev
+	pipenv install sphinx-rtd-theme --dev
 	pipenv install sqlalchemy
 	pipenv install pymysql
 	pipenv install pandas
 	pipenv install numpy
 	pipenv install types-pyyaml
+	pipenv install pyarrow
+	pipenv install sphinx
 
 .PHONY: build
 build: ## Create package for use elsewhere
